@@ -33,6 +33,10 @@
   dependencies:
     "@types/babel-types" "*"
 
+"@types/jest@^20.0.5":
+  version "20.0.5"
+  resolved "https://registry.yarnpkg.com/@types/jest/-/jest-20.0.5.tgz#f463e58b2de6e801f40e33b05db894babdbad98c"
+
 abab@^1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/abab/-/abab-1.0.3.tgz#b81de5f7274ec4e756d797cd834f303642724e5d"
@@ -1406,9 +1410,9 @@ lru-cache@^4.0.1:
     pseudomap "^1.0.2"
     yallist "^2.1.2"
 
-magikcraft.io@^0.9.10:
-  version "0.9.10"
-  resolved "https://registry.yarnpkg.com/magikcraft.io/-/magikcraft.io-0.9.10.tgz#ee5b1002b7aeb540de56d5da7351fba1e24899c1"
+magikcraft.io@^1.0.15:
+  version "1.0.15"
+  resolved "https://registry.yarnpkg.com/magikcraft.io/-/magikcraft.io-1.0.15.tgz#0e743ad50ff5fd4d5987798f1c964af49cf757c2"
 
 makeerror@1.0.x:
   version "1.0.11"

@@ -1,11 +1,15 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var magik = magikcraft.io;
-function mySpell() {
-    magik.dixit('Hello world!');
-}
-exports.mySpell = mySpell;
+var sendMessage = function (canon) { return function (msg) {
+    canon.sender.sendMessage(msg);
+}; };
 exports._lore = {
     namespace: 'your_name',
-    lore: []
+    loreToLoad: [
+        {
+            name: 'sendMessage',
+            code: sendMessage,
+            cost: 0
+        }
+    ]
 };

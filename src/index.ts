@@ -1,13 +1,19 @@
-const magik = magikcraft.io;
 
-export function mySpell() {
-    magik.dixit('Hello world!');
+import { ICanon } from 'magikcraft.io';
+
+const sendMessage = (canon: ICanon) => (msg: string) => {
+    canon.sender.sendMessage(msg);
 }
+
 
 export const _lore =
 {
     namespace: 'your_name',
-    lore: [
-
+    loreToLoad: [
+        {
+            name: 'sendMessage',
+            code: sendMessage,
+            cost: 0
+        }
     ]
 };
